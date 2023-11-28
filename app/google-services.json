@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95970486990",
+    "project_id": "pro-fit-bd94b",
+    "storage_bucket": "pro-fit-bd94b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95970486990:android:f8063fac7046aaea15fe9f",
+        "android_client_info": {
+          "package_name": "com.example.pro_fit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu8Wt707A7ppTGGNR7B_rg5Qezb6LHu5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
