@@ -62,21 +62,29 @@ public class Register extends AppCompatActivity {
                 if (TextUtils.isEmpty(email)){
                     Toast.makeText(Register.this, "Entrez un email", Toast.LENGTH_SHORT).show();
                     return;
+                }else{
+                    Log.i("TAG", "MAIL " + String.valueOf(et_mail.getText()));
                 }
 
                 if (TextUtils.isEmpty(password)){
                     Toast.makeText(Register.this, "Entrez un mot de passe", Toast.LENGTH_SHORT).show();
                     return;
+                }else{
+                    Log.i("TAG", "PASSWORD " + String.valueOf(et_password.getText()));
                 }
 
                 if (TextUtils.isEmpty(fname)){
                     Toast.makeText(Register.this, "Entrez un nom", Toast.LENGTH_SHORT).show();
                     return;
+                }else{
+                    Log.i("TAG", "FNAME " + String.valueOf(et_first_name.getText()));
                 }
 
                 if (TextUtils.isEmpty(lname)){
                     Toast.makeText(Register.this, "Entrez un prénom", Toast.LENGTH_SHORT).show();
                     return;
+                }else{
+                    Log.i("TAG", "LNAME " + String.valueOf(et_last_name.getText()));
                 }
 
                 mAuth.createUserWithEmailAndPassword(email, password)
